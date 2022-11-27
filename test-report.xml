@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/Users/gabrield/projectspace/github-actions-sonar/tests/calculate.test.js">
+    <testCase name="test calculate should return sum of two numbers" duration="1"/>
+  </file>
+</testExecutions>

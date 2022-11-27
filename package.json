@@ -12,5 +12,19 @@
   "license": "ISC",
   "dependencies": {
     "jest": "^29.3.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "expect": "^25.1.0",
+    "jest-sonar-reporter": "^2.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverage": true,
+    "testResultsProcessor": "jest-sonar-reporter",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/test/"
+    ]
   }
 }
