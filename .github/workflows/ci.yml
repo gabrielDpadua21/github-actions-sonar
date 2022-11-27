@@ -12,7 +12,7 @@ jobs:
       - name: Install
         run: npm install
       - name: Tests
-        run: npm run test
+        run: npm run test:cov
       
       - name: SonarQube Scan
         uses: SonarSource/sonarcloud-github-action@master
